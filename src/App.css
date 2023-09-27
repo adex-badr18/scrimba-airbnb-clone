@@ -13,7 +13,7 @@ nav {
 section.hero--container {
   display: flex;
   flex-direction: column;
-  padding: 26px 36px 49px;
+  padding: 26px 0px 49px;
 }
 
 .hero--img {
@@ -40,19 +40,24 @@ section.hero--container {
 }
 
 /* Card */
+main {
+  padding: 0 36px 30px 36px;
+}
+
 .card--container {
   max-width: 176px;
   display: flex;
   flex-direction: column;
-  padding: 0 36px 30px 36px;
+  gap: 8px;
   position: relative;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 .card--img {
   width: 176px;
   height: 235px;
   border-radius: 9px;
-  margin-bottom: 9px;
 }
 
 .card--status {
@@ -66,4 +71,34 @@ section.hero--container {
   margin-top: 6px;
   padding: 5px 6px;
   border-radius: 2px;
+}
+
+.card--rating-container {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  
+  line-height: 1.1;
+  color: #918E9B;
+}
+
+.card--rating-icon {
+  color: #FE395C;
+}
+
+.card--rating {
+  color: #222222;
+}
+
+.card--rating-dot {
+  font-size: 3px;
+}
+
+.card--description,
+.card--price {
+  line-height: 1.1;
+}
+
+.card--price > span {
+  font-weight: 600;
 }

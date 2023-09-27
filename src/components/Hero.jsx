@@ -1,9 +1,9 @@
 import heroImage from '../assets/images/hero.png';
 
-export default function Navbar() {
+export default function Hero() {
     return (
         <section className='hero--container'>
-            <img src={logo} className='hero--img' alt="Airbnb logo" />
+            <img src={heroImage} className='hero--img' alt="Grid of hero images" />
 
             <h1 className="hero--title">Online Experiences</h1>
             <p className="hero--description">

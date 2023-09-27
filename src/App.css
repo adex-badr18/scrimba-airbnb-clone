@@ -48,7 +48,7 @@ main {
   display: flex;
   flex-wrap: nowrap;
   gap: 18px;
-  /* overflow-x: auto; */
+  overflow-x: auto;
 }
 
 .card--container {

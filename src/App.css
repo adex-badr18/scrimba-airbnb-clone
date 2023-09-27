@@ -8,6 +8,8 @@ nav {
   padding: 23px 36px;
 }
 
+/* Hero */
+
 section.hero--container {
   display: flex;
   flex-direction: column;
@@ -35,4 +37,33 @@ section.hero--container {
   font-weight: 300;
   color: #222222;
   width: 320px;
+}
+
+/* Card */
+.card--container {
+  max-width: 176px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 36px 30px 36px;
+  position: relative;
+}
+
+.card--img {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card--status {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.1;
+  background-color: #FFFFFF;
+  color: #222222;
+  position: absolute;
+  margin-left: 6px;
+  margin-top: 6px;
+  padding: 5px 6px;
+  border-radius: 2px;
 }

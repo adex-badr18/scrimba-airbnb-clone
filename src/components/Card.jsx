@@ -2,7 +2,7 @@ import cardImage from '../assets/images/card-img.png';
 
 export default function Card() {
     return (
-        <section className='card--container'>
+        <div className='card--container'>
             <img src={cardImage} className='card--img' alt="Card" />
             <span className="card--status">SOLD OUT</span>
             <div className="card--rating-container">
@@ -20,6 +20,6 @@ export default function Card() {
             <p className="card--price">
                 <span className="">From $136</span> / person
             </p>
-        </section>
+        </div>
     )
 }

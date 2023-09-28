@@ -29,13 +29,3 @@ function App() {
 }
 
 export default App
-
-/*
-- img ("katie-zaferes.png")
-- rating ("5.0")
-- reviewCount (6)
-- country (Whatever you want)
-- title ("Life Lessons with Katie Zaferes")
-- price (136)
-
-*/

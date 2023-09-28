@@ -8,7 +8,8 @@ function App() {
   const cardData = data.map(item => {
     return <Card
       key={item.id}
-      item={item}
+      {...item} // Spread operator
+      // item={item}
     />
   })
 

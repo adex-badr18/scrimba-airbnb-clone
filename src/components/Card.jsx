@@ -1,5 +1,3 @@
-// import cardImage from '../assets/images/card-img.png';
-
 export default function Card(props) {
     // const obj = props.item;
 
@@ -12,7 +10,7 @@ export default function Card(props) {
 
     return (
         <div className='card--container'>
-            <img src={`/images/${props.coverImg}`} className='card--img' alt="Card" />
+            <img src={`/scrimba-airbnb-clone/images/${props.coverImg}`} className='card--img' alt="Card" />
             {badgeText && <span className="card--status">{badgeText}</span>}
             <div className="card--rating-container">
                 <i className="fa-solid fa-star card--rating-icon"></i>

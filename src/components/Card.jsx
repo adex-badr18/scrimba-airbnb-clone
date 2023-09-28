@@ -2,10 +2,18 @@
 
 export default function Card(props) {
     const {img, rating, reviewCount, location, title, price} = props;
+
+    let badgeText;
+    if (props.openSpots === 0) {
+        badgeText = 'SOLD OUT';
+    } else if (props.location === 'Online') {
+        badgeText = 'ONLINE';
+    }
+
     return (
         <div className='card--container'>
             <img src={`/images/${img}`} className='card--img' alt="Card" />
-            <span className="card--status">SOLD OUT</span>
+            {badgeText && <span className="card--status">{badgeText}</span>}
             <div className="card--rating-container">
                 <i className="fa-solid fa-star card--rating-icon"></i>
                 <span className="card--rating">{rating}</span>
